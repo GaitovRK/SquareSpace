@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5CC27FD42896C0C300BA490F /* SquareSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC27FD32896C0C300BA490F /* SquareSpaceApp.swift */; };
-		5CC27FD62896C0C300BA490F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC27FD52896C0C300BA490F /* ContentView.swift */; };
+		5CC27FD62896C0C300BA490F /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC27FD52896C0C300BA490F /* VideoListView.swift */; };
 		5CC27FD82896C0C600BA490F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC27FD72896C0C600BA490F /* Assets.xcassets */; };
 		5CC27FDB2896C0C600BA490F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC27FDA2896C0C600BA490F /* Preview Assets.xcassets */; };
+		5CC27FE22896D2DA00BA490F /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC27FE12896D2DA00BA490F /* VideoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5CC27FD02896C0C300BA490F /* SquareSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC27FD32896C0C300BA490F /* SquareSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareSpaceApp.swift; sourceTree = "<group>"; };
-		5CC27FD52896C0C300BA490F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CC27FD52896C0C300BA490F /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		5CC27FD72896C0C600BA490F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CC27FDA2896C0C600BA490F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CC27FE12896D2DA00BA490F /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				5CC27FD32896C0C300BA490F /* SquareSpaceApp.swift */,
-				5CC27FD52896C0C300BA490F /* ContentView.swift */,
+				5CC27FD52896C0C300BA490F /* VideoListView.swift */,
+				5CC27FE12896D2DA00BA490F /* VideoData.swift */,
 				5CC27FD72896C0C600BA490F /* Assets.xcassets */,
 				5CC27FD92896C0C600BA490F /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC27FD62896C0C300BA490F /* ContentView.swift in Sources */,
+				5CC27FD62896C0C300BA490F /* VideoListView.swift in Sources */,
 				5CC27FD42896C0C300BA490F /* SquareSpaceApp.swift in Sources */,
+				5CC27FE22896D2DA00BA490F /* VideoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
