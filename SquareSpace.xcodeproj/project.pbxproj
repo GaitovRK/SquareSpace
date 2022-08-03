@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2F06E3289A62BF00B7055D /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F06E2289A62BF00B7055D /* VideoDetailView.swift */; };
 		5CC27FD42896C0C300BA490F /* SquareSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC27FD32896C0C300BA490F /* SquareSpaceApp.swift */; };
 		5CC27FD62896C0C300BA490F /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC27FD52896C0C300BA490F /* VideoListView.swift */; };
 		5CC27FD82896C0C600BA490F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC27FD72896C0C600BA490F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2F06E2289A62BF00B7055D /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 		5CC27FD02896C0C300BA490F /* SquareSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC27FD32896C0C300BA490F /* SquareSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareSpaceApp.swift; sourceTree = "<group>"; };
 		5CC27FD52896C0C300BA490F /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				5CC27FE12896D2DA00BA490F /* VideoData.swift */,
 				5CC27FD72896C0C600BA490F /* Assets.xcassets */,
 				5CC27FD92896C0C600BA490F /* Preview Content */,
+				5C2F06E2289A62BF00B7055D /* VideoDetailView.swift */,
 			);
 			path = SquareSpace;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC27FD62896C0C300BA490F /* VideoListView.swift in Sources */,
+				5C2F06E3289A62BF00B7055D /* VideoDetailView.swift in Sources */,
 				5CC27FD42896C0C300BA490F /* SquareSpaceApp.swift in Sources */,
 				5CC27FE22896D2DA00BA490F /* VideoData.swift in Sources */,
 			);
